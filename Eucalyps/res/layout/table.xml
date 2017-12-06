@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/seedling" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dip"
+            android:text="HIGH SCORE"
+            android:textColor="#ff7081a3"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <ListView
+            android:id="@+id/listtable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerInParent="true" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/start_againtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listtable"
+            android:layout_marginTop="20dip"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:typeface="sans" 
+            android:background="#DDFFFFFF"/>
+
+        <Button
+            android:id="@+id/playagain_btn"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_againtext"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:text="Play Again"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+</RelativeLayout>

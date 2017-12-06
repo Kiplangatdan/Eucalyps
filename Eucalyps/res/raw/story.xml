@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+   <story>
+      <screen type="story">
+         <background>mainbg</background>
+         <image>ent_tree</image>
+         <story_text>Beginning of Questions.</story_text>
+         <long_text>I hope you enjoyed the first part of the story, to continue, i need you to help me answer the following questions so that we can learn together about our forest and its importance.<br/><br/>There will also be the diversion of the story.<br/><br/>At the end of each Diversion there will be minigames, <i>Picture puzzle</i> and <i>Cross word game.</i></long_text>
+      </screen>
+      
+       <screen type="quize">
+         <image>q1</image>
+         <story_text>Forests provides a variety of products that is beneficial to the country's economic growth and the local communities living close to the forest, E.g. Fuel, Timber, medicine, fruits and Honey. </story_text>
+         <question>Which of the following is non wood product?</question>
+         <choice_a>Timber</choice_a>
+         <choice_b>Firewood</choice_b>
+         <choice_c>Medicine</choice_c>
+         <choice_d>Paper</choice_d>
+         <correct_answer>2</correct_answer>
+         <answer_hint>Any products that are not made from timber.</answer_hint>
+         <ent_diag>
+            <ent_text><b>Facts;</b>Medicine is among the non-wood products in forests.
+                Forests provide habitats for different species of animals and birds .They also obtain food from the forest.</ent_text>
+            <ent_image>quiz_image03</ent_image>
+         </ent_diag>
+      </screen>
+      
+      <screen type="quize">
+         <image>image02</image>
+         <story_text>Forests are water towers, they preserve moisture within the soil and the trees release vapour to the atmosphere through evapotranspiration leading to precipitation in the form of rain. </story_text>
+         <question>Which is the only tropical rain forest in Kenya?</question>
+         <choice_a>Mount Kenya Forest</choice_a>
+         <choice_b>Mau Forest</choice_b>
+         <choice_c>Kakamega Forest</choice_c>
+         <choice_d>Aberdare Forest</choice_d>
+         <correct_answer>2</correct_answer>
+         <answer_hint>It is situated in the western province of Kenya. Northwest of the capital Nairobi and near to the border Uganda.</answer_hint>
+         <ent_diag>
+            <ent_text><B>Facts;</B>Kakamega forest is a tropical rain forest found in the western province. It has 380 recorded species of plants, it is also famous for its bird species, 367 bird species have been recorded to exist here.</ent_text>
+            <ent_image>q4_ent</ent_image>
+         </ent_diag>
+      </screen>
+      
+       <screen type="quize">
+         <image>pricking</image>
+         <story_text>Hardening off makes the seedlings stronger and more tolerant to harsh conditions.</story_text>
+         <question>which of the following is a hardening off procedure?</question>
+         <choice_a>Prunning</choice_a>
+         <choice_b>Reducing Shade</choice_b>
+         <choice_c>Coppicing</choice_c>
+	        <choice_d>Thining</choice_d>
+         <correct_answer>1</correct_answer>
+         <answer_hint>Hardening off is a process of adjusting seedlings to outdoor conditions.</answer_hint>
+         <ent_diag>
+            <ent_text><b>Facts:</b>Reducing shade to nursery seedlings is accompanied with other hardening off practices such as reducing irrigation practice since this ensures survival of seedlings against harsh climatic conditions after they are transplanted.</ent_text>
+            <ent_image>p</ent_image>
+         </ent_diag>
+      </screen>
+      
+      <screen type="quize">
+         <image>hardening</image>
+         <story_text>Agro forestry is the deliberate inclusion of trees with food crops or livestock. Mostly multipurpose trees are involved. The trees  provide food like fruits, shade, improve soil nutrients and provide fodder for livestock.</story_text>
+         <question>Which of the following is not a common Agroforestry tree species?</question>
+        <choice_a><i>Prunus africana</i></choice_a>
+         <choice_b><i>Grivellia robusta</i></choice_b>
+         <choice_c><i>Mangifera indica</i></choice_c>
+         <choice_d><i>Calliandra calothyrsus</i></choice_d>
+         <correct_answer>0</correct_answer>
+         <answer_hint>Agroforestry tree species are those have a low mortality and fast growth characteristic when cultivated</answer_hint>
+         <ent_diag>
+            <ent_text><b>Facts:</b><i>Prunus africana</i> is an indigenous and medicinal tree species that is believed to treat prostate cancer. Other uses of the tree are; timber and firewood</ent_text>
+            <ent_image>image_88</ent_image>
+         </ent_diag>
+      </screen>
+         
+      <screen type="quize">
+         <image>quiz_5</image>
+         <story_text>Forest fires are common problem each day, they are caused by clearing of land for agriculture by burning where the fires spread to the forest and  also by careless smokers  disposing cigarette remains in the forests. Forest fires are experienced mostly during dry seasons.</story_text>
+         <question>which of the following is <b>NOT</b> a type of forest fire?</question>
+         <choice_a>Surface Fire</choice_a>
+         <choice_b>Ground Fire</choice_b>
+         <choice_c>Grass Fire</choice_c>
+         <choice_d>Crown Fire</choice_d>
+         <correct_answer>2</correct_answer>
+         <answer_hint>Forest fires are categorized according to vertical and horizontal arrangement of fuels.</answer_hint>
+         <ent_diag>
+            <ent_text><b>Facts:</b>Apart from human factors , natural factors like lightening and volcanic eruption causes forest fires. The four types of forest fires are; surface/ crawling , ground, ladder, and canopy/crown fires.</ent_text>
+            <ent_image>image_88</ent_image>
+         </ent_diag>
+      </screen>
+     
+      
+<screen type="puzzle">
+</screen>
+      
+      <screen type="story">
+         <background>mainbg</background>
+         <image>ent_tree</image>
+         <story_text>Another mini game</story_text>
+         <long_text>haha still in development process.......</long_text>
+      </screen>
+    
+   </story>
+</xml>

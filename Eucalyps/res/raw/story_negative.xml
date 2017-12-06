@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <story>
+        
+            <screen type="story" indx="0" next="1">
+            <image>scene18</image>
+             <por_text>Baada ya Mafanikio, wanakijiji wanatofautiana na maoni ya Mafanikio na kuendelea kukata msitu kama ilivyo kawaida kwao.Waliuza mbao na kuchoma makaa.Msitu ulipungua kwa kiwango kikubwa.</por_text>
+            <en_text >After the meeting people ignored what mafanikio told them they continued cutting down trees .selling timber and also burning charcoal. The forest became depleted as time went by and adverse effects were faced.
+ </en_text>
+            <audio>scene18</audio>
+            </screen>
+            
+            <screen type="story" indx="1" next="2">
+            <image>scene19</image>
+             <por_text>Mito mikubwa iliokuwa ikivuma imekauka</por_text>
+            <en_text >The water catchment areas  have now been depleted and the area  is dry. The soils have now become  poor by the day, agriculture does  not do well because of the poor soils
+</en_text>
+            <audio>scene19</audio>
+            </screen>
+            
+            
+            <screen type="story" indx="3" next="4">
+            <image>scene20</image>
+             <por_text>Ardhi imekosa rotuba na kilimo kimedorora kutokana na ukosefu wa rotuba</por_text>
+            <en_text >There is  no rainfall or water sources, drought is experienced  and people  have started to starve because of lack of food from their farms. Due to this people are becoming desperate and are sorting to  illegal logging so that they can make money for food,
+ </en_text>
+            <audio>scene20</audio>
+            </screen>
+            
+            <screen type="story" indx="4" next="5">
+            <image>scene21</image>
+             <por_text>Mvua haipo tena sembuze vianzo vya maji. Ukame ni dhahiri huku, Wanakijiji na mifugo wakifa kwa njaa kwa ukosefu vya vyakula katika mashamba zao</por_text>
+            <en_text >Forest fires are common problem each day, they are caused by clearing of land for agriculture by burning where the fires spread to the forest and  also by careless smokers  disposing cigarette remains in the forests.  
+</en_text>
+            <audio>scene21</audio>
+            </screen>
+            
+            <screen type="story" indx="5" next="6">
+            <image>scene22</image>
+             <por_text>Kutokana na hayo watu waliendelea kukata miti na kuuza mbao ili kujipatia lishe la siku.</por_text>
+            <en_text > the climate of uwezo village has  changed it has become hot and dry this climate cannot  support agriculture anymore.</en_text>
+            <audio>scene22</audio>
+                </screen>
+                
+            <screen type="story" indx="6" next="7">
+            <image>scene01</image>
+             <por_text>Tejshjhsnije.</por_text>
+            <en_text > sjdjdh.</en_text>
+            <audio>scene22</audio>
+                </screen>
+        <screen type="static" indx="8">
+            <image>the_end2</image>
+        </screen>
+    </story>
+</xml>

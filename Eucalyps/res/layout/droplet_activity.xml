@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <eucalyps.DropletView
+        android:id="@+id/dropletView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    
+        <include
+        android:layout_width="219dp"
+        android:layout_alignParentRight="true"
+        layout="@layout/score_bar" />
+</RelativeLayout>

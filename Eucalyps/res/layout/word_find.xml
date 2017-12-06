@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="2dip"
+    android:layout_marginTop="0dip" >
+
+    <include
+        android:layout_width="219dp"
+        android:layout_alignParentRight="true"
+        layout="@layout/score_bar" />
+    
+        <TextView
+        android:id="@+id/current"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="24dp"
+        android:text=" "
+        android:textColor="#4fa5d5"
+        android:textSize="72dip" />
+
+    <eucalyps.WordPanel
+        android:id="@+id/gridview"
+        android:layout_width="550dp"
+        android:layout_height="785dp"
+        android:layout_below="@id/current"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="15dip" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/current"
+        android:layout_marginTop="15dip"
+        android:layout_toRightOf="@+id/gridview"
+        android:paddingLeft="8dp"
+        android:text=" "
+        android:textColor="#4fa5d5"
+        android:textSize="60dip" />
+
+    <LinearLayout
+        android:id="@+id/foundWords"
+        android:layout_width="220dp"
+        android:layout_height="570dp"
+        android:layout_below="@id/counter"
+        android:layout_marginTop="50dip"
+        android:layout_toRightOf="@+id/gridview"
+        android:background="@drawable/boardertextview"
+        android:orientation="vertical"
+        android:paddingLeft="8dp" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/clues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridview"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="4dp"
+        android:textColor="#000000"
+        android:textSize="22dip"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/giveup_btn"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/gridview"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="20dip"
+        android:layout_toRightOf="@id/gridview"
+        android:text="Give up"
+        android:textColor="#000000" />
+
+</RelativeLayout>

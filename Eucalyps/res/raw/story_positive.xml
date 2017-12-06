@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <story>        
+        <screen type="story" indx="0" next="1">
+            <image>scene12</image>
+             <por_text>Wanakijiji kwa pamoja walikubaliana na mawaidha ya Mafanikio. Wanashirikana katika upanzi wa miti pamoja na mimea mingine ya vyakula</por_text>
+            <en_text>The community agreed with Mafanikio’s idea. Together with mafanikio they now start  to do afforestation,reafforastation  and agro forestry  on their land. Through the help of the government seeds are brought in plenty.
+                  </en_text>
+            <audio>scene12</audio>
+            </screen>
+            
+        <screen type="story" indx="1" next="2">
+            <image>scene13</image>
+             <por_text>Mbegu zilipandwa haraka iwezekanavyo. Mbegu hizi zinanyunyiziwa maji katika kuchwao na kunapokucha.</por_text>
+            <en_text>Seedbeds are prepared with immediate effect. The seeds are planted and watering done on daily basis early in the morning and late in the evening. The community members that  had settled in the forest are  provided with alternative settlements away from the forest. 
+</en_text>
+            <audio>scene13</audio>
+            </screen>
+            
+        <screen type="story" indx="2" next="3">
+            <image>scene14</image>
+             <por_text>Wanakijiji waliojinyakulia makaazi msituni watatafutiwa makaazi sehemu zingine mbali na msitu.Wanashauriwa kupanda miti na mimea ya vyakula katika mashamba yao.</por_text>
+            <en_text>After several months the seedlings  are ready for transplant from the nursery beds where they are  taken care of ensuring watering  is done on daily basis. Some months before the seedlings are ready for transplant ,hardening off is done where amount of watering and shade is reduced this improves the chances of seedling survival after transplanting.
+</en_text>
+            <audio>scene14</audio>
+            </screen>
+        <screen type="story" indx="3" next="4">
+            <image>scene15</image>
+             <por_text>Baada ya miezi michache miche yatayarishwa kwa upanzi.Kiwango cha maji pamoja na kivuli chapunguzwa ili kuwezesha miche kunawiri na kustahimili changamoto baada ya kupandwa.</por_text>
+            <en_text>The community worked together to ensure the seedlings are transplanted. After three years the seedlings have now reached  the sapling stage and the land that used to be bear has now  started to become green. 
+</en_text>
+            <audio>scene15</audio>
+            </screen> 
+              
+        <screen type="story" indx="4" next="5">
+            <image>scene16</image>
+             <por_text>Shamba lalimwa tayari kwa upanzi ya miche. Wanakijiji wanashirikiana kuhakikisha kuwa miche yote yamepandwa.</por_text>
+            <en_text >The community also practiced agro forestry which involves planting their  food crops with trees.
+</en_text>
+            <audio>scene16</audio>
+            </screen>
+            
+                 
+        <screen type="story" indx="5" next="6">
+            <image>scene17</image>
+             <por_text>Baada ya miaka mitatu, miche imekuwa kiasi cha mita mbili na kuibadili ardhi kutokana na ukame.</por_text>
+            <en_text >“It has been twenty five years since we started improving our forest and our efforts have been successful. It is the reason why we have rivers flowing in our village, rainfall  is abundant and the land is no longer dry. The people are benefiting from the forest through the projects we created. Projects like beekeeping and butterfly keeping and our wives have been employed in the nurseries and are able to earn for themselves. We are able to get firewood and harvest fruits and herbs. Erosion has greatly reduced and our soils have been improved, Thanks to the community”.</en_text>
+            <audio>scene17</audio>
+            
+            
+          </screen>
+            <screen type="static" indx="7">
+            <image>the_end</image>
+            </screen>
+            
+    </story>
+</xml>

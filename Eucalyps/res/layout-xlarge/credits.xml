@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/seedling1"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="15dip"
+    android:paddingTop="50dp" >
+
+    <ImageView
+        android:id="@+id/groupimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dip"
+        android:src="@drawable/group_crop" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupimage"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/managing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/managing"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/programming"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Programming"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:layout_weight="1" >
+        </TextView>
+        <TextView
+            android:id="@+id/contentdevelopment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Content Development "
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:layout_weight="1" >
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        
+        <ImageView
+            android:id="@+id/moi"
+            android:layout_width="246dp"
+            android:layout_height="137dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/uoe" />
+
+        <TextView
+            android:id="@+id/moitxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University of Eldoret"
+            android:textColor="#000000"
+            android:textSize="20dip" />
+        <TextView
+            android:id="@+id/moitxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department of Forestry and Wood Science\nDepartment of Computer Science\n and Mathematics"
+            android:textColor="#000000"
+            android:textSize="16dip"
+            android:gravity="center" />    
+
+        <ImageView
+            android:id="@+id/uef"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uef" />
+
+        <TextView
+            android:id="@+id/ueftxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University of Eastern Finland"
+            android:textColor="#000000"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/ueftxt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="School of Computing\nSchool of Forest Sciences"
+            android:textColor="#000000"
+            android:textSize="16dip" />
+
+       <TextView
+            android:id="@+id/mofatxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\nDeveloped with the support from:"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:gravity="center"
+             />
+       <TextView
+            android:id="@+id/mofatxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ministry for Foreign Affairs of Finland\nRegional Council of North Karelia, Finland\n"
+            android:textColor="#000000"
+            android:textSize="16dip"
+            android:gravity="center"
+             />
+
+    </LinearLayout>
+
+</RelativeLayout>

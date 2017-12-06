@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="7dp" >
+
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ent"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ent_tree"
+                android:adjustViewBounds="true" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/ent_title"
+                android:text="@string/correctAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dip"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@id/ent"
+                android:textColor="#ffff00"
+                android:textSize="20dip" >
+            </TextView>
+            
+        </RelativeLayout>
+        
+            <TextView
+                android:id="@+id/ent_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top"
+                android:layout_marginTop="8dip"
+                android:textColor="#ffff00"
+                android:textSize="16dip" >
+            </TextView>
+
+        <ImageView
+            android:id="@+id/ent_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/ent_text"
+            android:adjustViewBounds="true"
+            android:paddingTop="10dp" >
+        </ImageView>
+
+        <Button
+            android:id="@+id/ent_button"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ent_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/cont" />
+    </RelativeLayout>
+
+</ScrollView>

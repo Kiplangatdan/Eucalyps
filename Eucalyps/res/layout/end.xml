@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget54"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cert_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/imageframe"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/story_root"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/story_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/dip_image"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/seal" />
+
+                <TextView
+                    android:id="@+id/story_congratulations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/dip_image"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="14dp"
+                    android:text="Congratulations!"
+                    android:textColor="#000000"
+                    android:textSize="22dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/score_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/story_congratulations"
+                    android:layout_toRightOf="@id/dip_image"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="14dp"
+                    android:text="72 points! You are a master of forestry!"
+                    android:textColor="#000000"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/story_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/story_top"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/story_shorttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="Some text here"
+                    android:textColor="#000000"
+                    android:textSize="16dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ent_image"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/story_shorttext"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="true"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/ent_tree" />
+
+                <TextView
+                    android:id="@+id/story_longtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ent_image"
+                    android:text="last text"
+                    android:textColor="#000000"
+                    android:textSize="16dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/story_continue"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/story_longtext"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="@string/cont"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

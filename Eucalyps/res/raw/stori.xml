@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <story>
+        <screen type="static" indx="0" next="1">
+            <image>start_page</image>
+        </screen>
+        <screen type="story" indx="1" next="2">
+            <image>scene01</image>
+            <por_text>Hadithi hii inatufundisha Mafanikio ambaye ni mwanamke umri wa makamo. Mafanikio ameoa na kajaliwa na wana watano wakiwemo watatu wa kike na wawili wa kiume. Wote hawa wantokea kijiji cha Uwezo </por_text>
+            <en_text>This is a story of Mafanikio and his village Uwezo.
+                Mafanikio is a middle aged man, who lives in Uwezo village. He is married and blessed with five children consisting of three girls and two boys.</en_text>
+            <audio>scene01</audio>
+        </screen>
+        <screen type="story" indx="2" next="3">
+            <image>scene02</image>
+            <por_text>Mafanikio anaonakana kasimama katika sehemu tambarare huku jua kali likimchoma japokua jua hili haistamiliki, Mafanikio hana la kufanya ila tu kuliruhusu jua limtolee makali yake kwani sehemu hii yote haupatikani hata mti wa kumpa kivuli. Upepo mkali unaovuma kutoka kila sehemu na umonyonyoko wa udongo ni dhahiri kuwa miti imeadimika katika sehemu hii </por_text>
+            <en_text>Mafaniko stands looking at the wasteland barren and bare with the scorching sun overhead. Uwezo village was not always like this, with no vegetation, eroded soils, wind carrying dust in all directions as well as absence of trees.
+.</en_text>
+            <audio>scene02</audio>
+        </screen>
+        <screen type="story" indx="3" next="4">
+            <image>scene03</image>
+            <por_text>Hapo kale Mafanikio mtoto mdogo  kijiji cha Uwezo kulijaa msitu uliosheheni miti mikubwa na miti mikubwa na mito yenye uaji safi</por_text>
+            <en_text>A long time ago when Mafanikio was still a small boy Uwezo village was beautiful, it had a forest that comprised of large trees and numerous springs that flowed into the forest.. Wild animals would obtain water from the forest springs</en_text>
+            <audio>scene03</audio>
+        </screen>
+        <screen type="story" indx="4" next="5">
+            <image>scene04</image>
+            <por_text>Msitu huu ulihakikisha kuwa mvua ya mara kwa mara ilinyesha katika kijiji cha Uwezo. kutokana na mvua hii mimea tofauti ilinawiri, ikiwemo ile ya matunda na hata dawa.</por_text>
+            <en_text>This forest ensured there was abundant rainfall for the community..This rain was  essential for the growth of various plant species, some were used for medicine and others produced fruits.
+<b>Additional information.</b>The fruits were consumed by the people of uwezo village, while other plants were fed on by the wild animals such as monkeys, birds and antelopes.  </en_text>
+            <audio>scene04</audio>
+        </screen>
+        <screen type="story" indx="5" next="6">
+            <image>scene05</image>
+            <por_text>matunda haya yaliliwa na wanakiji wa Uwezo,vilevile ndege na wanyama mwitu kama vile tumbili walipata lishe</por_text>
+            <en_text>In those days , people in the village were very few. The mud houses that people lived in were scattered, Mafanikio’s closest neighbors lived almost one kilometer away from them. Mafanikio knew every village member by name. 
+</en_text>
+            <audio>scene05</audio>
+        </screen>
+        
+        <screen type="story" indx="6" next="7">
+            <image>scene06</image>
+            <por_text>Enzi hizo hizo wanakijiji walikuwa wachache kiasi kuwa Mafanikio alijua wanakijiji wote kwa majina.majirani wa karibu kwa Mafanikio waliishi umbali wa kilomita moja. </por_text>
+            <en_text>The villagers consumed A lot of the food that was  obtained from the forest. Mafanikio’s  mother and his younger sister usually would wake up very early at the crack of dawn to go find food in the forest. They would collect edible mushrooms, fruits, herbaceous plants, edible roots and vegetables. They also collected honey from the hives that villagers had placed in the forest.
+</en_text>
+            <audio>scene06</audio>
+        </screen>
+        
+        <screen type="story" indx="7" next="8">
+            <image>scene07</image>
+            <por_text>Wanakijiji waliweza kupata chakula kadha wa kadha kutoka kwa msitu huu. Alikuwa kawaida ya mama na dada wa Mafnikio kuamka asubuhi na mapema kuelekea msituni kuchana matunda,mboga na uyoga. </por_text>
+            <en_text>Mafanikio helped his father collect firewood and grazed their livestock in the forest since it had nutritious forage. The trees sheltered the animal from too much heat from the sun this made the animals very productive. They also hunted the wild animals that were found  in the forest.</en_text>
+            <audio>scene07</audio>
+        </screen>
+        <screen type="story" indx="8" next="9">
+            <image>scene08</image>
+             <por_text>Vilevile walipata asali kutokana na mizinga ambayo wanakijiji walitengeneza na kuiweka msitu</por_text>
+            <en_text>The population continued to increase as mafanikio grew older. The forest in uwezo village begun to be cleared in order to create room for settlement.</en_text>
+            <audio>scene08</audio>
+        </screen>
+        <screen type="story" indx="9" next="10">
+            <image>scene09</image>
+             <por_text>Mafanikio naya alimsaidia babake kukata kuni na kuchunga mifugo ambao walikula nyasi kutoka kwa msitu huo</por_text>
+            <en_text>They cut trees for firewood as well as charcoal production. People also cut trees to provide timber for construction and furniture making and selling them without replanting.</en_text>
+            <audio>scene09</audio>
+        </screen>
+        <screen type="story" indx="10" next="11">
+            <image>scene10</image>
+             <por_text>Mifugo walpata kivuli na kujistiri jua kali kutoka kwenye miti mikubwa.  </por_text>
+            <en_text>When Mafanikio looks at his village he is filled with great sadness. This is because the rivers have dried up. There is lack vegetation as well as poor aesthetic value of the land. The forest that was once dense has now reduced  to only a few scattered trees. As a result, soil erosion has taken place.</en_text>
+            <audio>scene10</audio>
+        </screen>
+        <screen type="story" indx="11" next="12">
+            <image>scene11</image>
+             <por_text>Mafanikio na baba yake mara kwa mara waliwinda wanyama pori. waliopatikana kwenye msitu huo.</por_text>
+            <en_text>Mafanikio now calls a village meeting to address the degraded state of their land. He talks about afforestation, building gabions, planting drought resistant crops.
+             </en_text>
+            <audio>scene11</audio>
+        </screen>
+       
+            
+        <!-- CHOICE -->
+
+        <!-- FALSE ENDING -->
+        
+        <!-- TRUE ENDING -->
+
+        <!-- THE END -->
+        <screen type="static" indx="13">
+            <image>the_end</image>
+        </screen>
+    </story>
+</xml>

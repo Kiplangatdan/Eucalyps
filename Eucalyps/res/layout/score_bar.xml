@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/current_scores"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="#7abd50"
+    android:padding="3dip"
+    android:shadowColor="#a8deae"
+    android:text="Scores:"
+    android:textColor="#FFFFFFFF"
+    android:textSize="24dip" />

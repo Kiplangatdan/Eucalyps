@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget54"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/score_bar" />
+
+    <ScrollView
+        android:id="@+id/imageframe"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="140dp"
+        android:paddingLeft="92dp"
+        android:paddingRight="92dp"
+        android:paddingTop="140dp" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/storytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="Question heading goes here"
+                android:textColor="#000000"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/quizimage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" >
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The question goes here and the multiple choices below"
+                    android:textColor="#000000"
+                    android:textSize="24dip"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/quiz_radiogroup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/question"
+                    android:layout_marginBottom="20dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:textColor="#000000" >
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/quiz_select"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/quiz_radiogroup"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/quiz_select"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/quiz_hint"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/quiz_radiogroup"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="10dip"
+                    android:layout_toRightOf="@id/quiz_select"
+                    android:text="@string/quiz_hint"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

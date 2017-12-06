@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget54"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:foregroundGravity="center" >
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dip"
+        android:layout_marginTop="150dip">
+        <TextView
+            android:id="@+id/itemlocator_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/itemlocator_story"
+            android:textColor="#000000"
+            android:textSize="16dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/itemlocator_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemlocator_story"
+            android:layout_gravity="center"
+            
+            android:duplicateParentState="true" />
+
+        <TextView
+            android:id="@+id/itemlocator_instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemlocator_img"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="30dip"
+            android:text="@string/itemlocator_instruction"
+            android:textColor="#000000"
+            android:textSize="16dip" >
+        </TextView>
+
+        <Button
+            android:id="@+id/itemlocator_btninput"
+            android:layout_width="130dip"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/itemlocator_instruction"
+            android:layout_below="@id/itemlocator_instruction"
+            android:layout_marginTop="50dip"
+            android:text="@string/itemlocator_btninput"
+            android:textColor="#000000" >
+        </Button>
+
+        <Button
+            android:id="@+id/itemlocator_hint"
+            android:layout_width="130dip"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/itemlocator_instruction"
+            android:layout_below="@+id/itemlocator_instruction"
+            android:layout_marginTop="50dip"
+            android:text="@string/itemlocator_hint"
+            android:textColor="#000000" >
+        </Button>
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

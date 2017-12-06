@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/small_mainbg" >
+
+    <ScrollView
+        android:id="@+id/imageframe"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/story_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/story_image"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="true"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:id="@+id/story_shorttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/story_image"
+                    android:textColor="#000000"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/story_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/story_top"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/story_longtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/story_continue"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/story_longtext"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/cont"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
